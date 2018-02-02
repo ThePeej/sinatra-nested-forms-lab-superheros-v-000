@@ -8,6 +8,8 @@ class Hero
     @name=hero_hash[:name]
     @power=hero_hash[:power]
     @biography=hero_hash[:biography]
+    
+    @@all << self
   end 
   
 end 
