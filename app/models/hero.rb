@@ -4,3 +4,5 @@ class Hero
   
   def initialize(hero_hash)
     @name=hero_hash[:name]
+    @power=hero_hash[:power]
+    @biography=hero_hash[:biography]
