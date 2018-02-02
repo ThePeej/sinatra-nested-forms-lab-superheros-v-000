@@ -6,3 +6,5 @@ class Team
     @name = team_hash[:name]
     @motto = team_hash[:motto]
   end
+  
+end
