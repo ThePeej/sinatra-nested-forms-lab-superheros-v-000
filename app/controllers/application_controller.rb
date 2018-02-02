@@ -10,6 +10,6 @@ class App < Sinatra::Base
   end
   
   post '/teams' do
-    binding.pry
+    raise params.inspect
   end
 end
