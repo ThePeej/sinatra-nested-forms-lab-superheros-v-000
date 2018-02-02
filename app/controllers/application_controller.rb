@@ -11,9 +11,9 @@ class App < Sinatra::Base
   
   post '/teams' do
     raise params.inspect
-    @team = Team.new(params[team])
+    @team = Team.new(params["team"])
     
-    params[team][heroes].each do |hero|
+    params["team"]["heroes"].each do |hero|
       Hero.new(hero)
     end
     
