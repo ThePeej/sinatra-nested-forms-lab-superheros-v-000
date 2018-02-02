@@ -7,4 +7,4 @@ class Team
     @motto = team_hash[:motto]
   end
   
-end
+end 
